@@ -1,0 +1,126 @@
+.e__call{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+    border-radius: 1rem;
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(245, 193, 11, 1) 39%, rgba(0, 0, 0, 1) 83%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(245, 193, 11, 1) 39%, rgba(0, 0, 0, 1) 83%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(245, 193, 11, 1) 39%, rgba(0, 0, 0, 1) 83%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#F5C10B', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(245, 193, 11, 1) 39%, rgba(0, 0, 0, 1) 83%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(245, 193, 11, 1) 39%, rgba(0, 0, 0, 1) 83%);
+
+
+
+     /* ff 3.6+ */
+    /* background:-moz-radial-gradient(circle at 3% 25%, rgba(225, 14, 14, 1) 0%, rgba(6, 6, 59, 1) 85%); */
+
+     /* safari 5.1+,chrome 10+ */
+    /* background:-webkit-radial-gradient(circle at 3% 25%, rgba(225, 14, 14, 1) 0%, rgba(6, 6, 59, 1) 85%); */
+ 
+     /* opera 11.10+ */
+    /* background:-o-radial-gradient(circle at 3% 25%, rgba(225, 14, 14, 1) 0%, rgba(6, 6, 59, 1) 85%); */
+ 
+     /* ie 10+ */
+    /* background:-ms-radial-gradient(circle at 3% 25%, rgba(225, 14, 14, 1) 0%, rgba(6, 6, 59, 1) 85%); */
+ 
+     /* global 92%+ browsers support */
+    /* background:radial-gradient(circle at 3% 25%, rgba(225, 14, 14, 1) 0%, rgba(6, 6, 59, 1) 85%); */
+
+}
+
+.e__call-content p{
+    font-size: 12px;
+    line-height: 30px;
+    color: #000;
+}
+
+.e__call-content h3{
+    font-size: 24px;
+    line-height: 45px;
+    color: #000;
+}
+
+.e__call-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.e__call-btn{
+    background: #fff;
+    color: #000;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: poppinsreg;
+    line-height: 30px;
+    padding: 0.3rem 1rem;
+    border: none;
+    cursor: pointer;
+    min-width: 130px;
+}
+
+@media screen and (max-width: 850px) {
+    .e__call-content h3{
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .e__call{
+        flex-direction: column;
+         /* ff 3.6+ */
+        background:-moz-linear-gradient(90deg, rgba(245, 193, 11, 1) 20%, rgba(0, 0, 0, 0.86) 71%); 
+
+        /* safari 5.1+,chrome 10+ */
+        background:-webkit-linear-gradient(90deg, rgba(245, 193, 11, 1) 20%, rgba(0, 0, 0, 0.86) 71%);
+
+        /* opera 11.10+ */
+        background:-o-linear-gradient(90deg, rgba(245, 193, 11, 1) 20%, rgba(0, 0, 0, 0.86) 71%);
+
+        /* ie 6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#F5C10B', GradientType=0 );
+
+        /* ie 10+ */
+        background:-ms-linear-gradient(90deg, rgba(245, 193, 11, 1) 20%, rgba(0, 0, 0, 0.86) 71%);
+
+        /* global 94%+ browsers support */
+        background:linear-gradient(90deg, rgba(245, 193, 11, 1) 20%, rgba(0, 0, 0, 0.86) 71%);
+    }
+
+    .e__call-btn{
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .e__call{
+        margin: 4rem 2rem;
+    }
+
+    .e__call-content h3{
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .e__call-btn .call-btn{
+        font-size: 14px;
+        line-height: 28px;
+    }
+}

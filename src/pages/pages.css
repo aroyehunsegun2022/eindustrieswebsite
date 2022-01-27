@@ -1,0 +1,117 @@
+.container{
+    background: rgb(6, 6, 59);
+    /* background: url("assets/banner30.jpg");
+    background-repeat: no-repeat; */
+    /* background-size: 100vw; */
+    /* background-size: cover; */
+    /* min-height: 100vh; */
+    /* background-position: left; */
+     /* background:-moz-radial-gradient(circle at 3% 25%, rgba(255, 227, 227, 1) 0%, rgba(255, 255, 255, 1) 99%); */
+
+     /* safari 5.1+,chrome 10+ */
+     /* background:-webkit-radial-gradient(circle at 3% 25%, rgba(255, 227, 227, 1) 0%, rgba(255, 255, 255, 1) 99%); */
+ 
+     /* opera 11.10+ */
+     /* background:-o-radial-gradient(circle at 3% 25%, rgba(255, 227, 227, 1) 0%, rgba(255, 255, 255, 1) 99%); */
+ 
+     /* ie 10+ */
+     /* background:-ms-radial-gradient(circle at 3% 25%, rgba(255, 227, 227, 1) 0%, rgba(255, 255, 255, 1) 99%); */
+ 
+     /* global 92%+ browsers support */
+     /* background:radial-gradient(circle at 3% 25%, rgba(255, 227, 227, 1) 0%, rgba(255, 255, 255, 1) 99%); */
+}
+
+.container__text{
+    background: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* .nav-container{
+    background: rgb(6, 6, 59);
+    color: #fff;
+} */
+
+.e__contact{
+    background: #fff;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+.e__contact-form{
+    padding-top: 7rem;
+}
+
+.e__foot-links{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.e__foot-links div{
+    width: 250px;
+    margin: 2rem 1rem;
+}
+
+.e__foot-links_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.e__foot-links_div h4{
+    font-size: 24px;
+    line-height: 16px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #960000;
+}
+
+.e__foot-links_div p{
+    font-size: 16px;
+    line-height: 14px;
+    margin: 0.5rem 0;
+    color: #7a7a7a;
+}
+
+.e__foot-links_div i{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #960000;
+}
+
+.e__contact h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5rem;
+    background-image: linear-gradient(to right top, #e10e0e, #be003c, #880051, #490050, #06063b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1200px){
+    .e__contact-form{
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .e__contact h1{
+        font-size: 40px;
+    }
+
+    .e__contact-form{
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .e__contact h1{
+        font-size: 30px;
+    }
+}

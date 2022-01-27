@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+    color: unset;
+    text-decoration: none;
+}
+@font-face{
+    font-family: montserrat;
+    src:url("fonts/montserratalternates-medium-webfont.woff") format("woff")
+}
+@font-face{
+    font-family: poppinsreg;
+    src:url("fonts/poppins-medium-webfont.woff") format("woff")
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face{
+    font-family: poppinsbold;
+    src:url("fonts/poppins-bold-webfont.woff") format("woff")
 }
 
-.App-link {
-  color: #61dafb;
+h1,h2,h3,h4{
+    font-family: poppinsbold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+    font-family: poppinsreg;
+}
+
+.e__home{
+    background: #f2f2f2;
+}
+
+.container{
+    background: #f2f2f2
+    /* background: url("assets/banner30.jpg");
+    background-repeat: no-repeat; */
+    /* background-size: 100vw; */
+    /* background-size: cover; */
+    /* min-height: 100vh; */
+    /* background-position: left; */
+     /* background:-moz-radial-gradient(circle at 3% 25%, rgba(255, 227, 227, 1) 0%, rgba(255, 255, 255, 1) 99%); */
+
+     /* safari 5.1+,chrome 10+ */
+     /* background:-webkit-radial-gradient(circle at 3% 25%, rgba(255, 227, 227, 1) 0%, rgba(255, 255, 255, 1) 99%); */
+ 
+     /* opera 11.10+ */
+     /* background:-o-radial-gradient(circle at 3% 25%, rgba(255, 227, 227, 1) 0%, rgba(255, 255, 255, 1) 99%); */
+ 
+     /* ie 10+ */
+     /* background:-ms-radial-gradient(circle at 3% 25%, rgba(255, 227, 227, 1) 0%, rgba(255, 255, 255, 1) 99%); */
+ 
+     /* global 92%+ browsers support */
+     /* background:radial-gradient(circle at 3% 25%, rgba(255, 227, 227, 1) 0%, rgba(255, 255, 255, 1) 99%); */
+}
+
+.container__text{
+    background: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section__padding{
+    padding: 4rem 6rem;
+}
+
+.section__margin{
+    margin: 4rem 6rem;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .section__padding{
+        padding: 4rem;
+    }
+    .section__margin{
+        margin: 4rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section__padding{
+        padding: 4rem 2rem;
+    }
+    .section__margin{
+        margin: 4rem 2rem;
+    }
 }

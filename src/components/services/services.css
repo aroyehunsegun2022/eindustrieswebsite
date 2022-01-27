@@ -1,0 +1,122 @@
+.e__services-body{
+    background: #f2f2f2;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    margin-bottom: -1;
+}
+/* .e__services-container{
+    display: flex;
+    align-items: center;
+    margin: 0 10rem;
+
+} */
+
+.e__services-img img{
+    width: 350px;
+    height: 300px;
+}
+
+.e__services-desc{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    align-items: center;
+}
+
+.e__services-desc_title{
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    /* text-align: left; 7a7a7a*/
+}
+
+.e__services-desc_details{
+    color: #2F2F2F;
+    font-size: 16px;
+    text-align: left;
+    max-width: 50%;
+    line-height: 30px;
+}
+
+.e__services-small{
+    display: none;
+}
+
+@media screen and (max-width: 1100px){
+    .e__services-desc_title{
+        font-size: 24px;
+    }
+
+    .e__services-desc_details{
+        font-size: 14px;
+    }
+
+    .e__services-img img{
+        width: 280px;
+        height: 250px;
+    }
+
+    .e__services-body{
+    margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    /* .e__services-small{
+        display: none;
+    } */
+    .e__services-container1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+    }
+
+    .e__services-body{
+        display: none;
+    }
+    .e__services-small{
+        display: flex;
+        background: #f2f2f2;
+        background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+        /* flex-direction: column;
+        align-items: center; */
+    }
+    .e__services-desc{
+        max-width: 90%;
+    }
+    .e__services-desc_details{
+        max-width: 70%;
+    }
+
+    .e__services-desc_title{
+        font-size: 21px;
+    }
+
+    /* .dis{
+        display: flex;
+        flex-direction: column;
+    } */
+}
+
+@media screen and (max-width: 550px) {
+    .e__services-img img{
+        width: 200px;
+        height: 200px;
+        margin-top: 1rem;
+    }
+    .e__services-desc{
+        max-width: 98%;
+        /* border: 1px solid black; */
+        margin-top: 1rem;
+    }
+    .e__services-desc_details{
+        max-width: 90%;
+        font-size: 13px;
+        line-height: 27px;
+    }
+
+    .e__services-desc_title{
+        font-size: 22px;
+    }
+}

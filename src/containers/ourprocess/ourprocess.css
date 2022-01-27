@@ -1,0 +1,74 @@
+.e__ourprocess{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #f2f2f2;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+.e__ourprocess-heading{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 5rem;
+}
+
+.e__ourprocess-container .gpt3__features-container_feature-title h1,.e__ourprocess-container .gpt3__features-container_feature-text p {
+    color: #000;
+}
+
+.e__ourprocess-heading h1 {
+   font-weight: 800;
+   font-size: 34px;
+   line-height: 45px;
+   /* color: #960000; */
+   /* background-image: linear-gradient(to right top, #e10e0e, #be003c, #880051, #490050, #06063b); */
+   background: linear-gradient(158deg, rgba(0,0,0,1) 25%, rgba(245,193,11,1) 94%);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.e__ourprocess-heading p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #f5c10b;
+    margin-top: 1rem;
+}
+
+.e__ourprocess-container{
+    flex: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 990px) {
+    .e__ourprocess{
+        flex-direction: column;
+    }
+
+    .e__ourprocess-heading{
+        margin: 0 0 2rem 0;
+    }
+
+    .e__ourprocess-heading p{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .e__ourprocess-heading h1{
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    /* .e__ourprocess-heading p{
+        margin-top: 1rem;
+    } */
+}

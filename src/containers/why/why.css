@@ -1,0 +1,136 @@
+.e__why{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7rem;
+    background: #f2f2f2;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+/* body{
+    background: #eee;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+} */
+
+.e__why-img{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 2rem;
+    /* border: 1px solid red; */
+    padding-left: 6rem;
+}
+
+.e__why-img img{
+    width: 60%;
+    height: 350px;
+    border-top-right-radius: 20%;
+    margin: auto;
+}
+
+.e__why-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /* border: 1px solid red; */
+    padding-right: 6rem;
+}
+
+.e__why-content h1{
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    margin-bottom: 1rem;
+    background: linear-gradient(158deg, rgba(0,0,0,1) 25%, rgba(245,193,11,1) 94%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.e__why-content p{
+    font-size: 16px;
+    line-height: 30px;
+    width: 80%;
+}
+
+.e__why-content h4{
+    margin-bottom: 1rem;
+    color: #f5c10b;
+}
+
+.bottom-h4{
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1150px){
+    .e__why-img img{
+        width: 100%;
+        height: 90%;
+    }
+    
+    .e__why-content h1{
+        font-size: 31px;
+    }
+
+    .e__why-content p{
+        font-size: 14px;
+        line-height: 30px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .e__why{
+        flex-direction: column;
+    }
+
+    .e__why-img{
+        margin-bottom: 2rem;
+        margin-left: -1rem;
+        padding-left: 2rem;
+        /* margin-right: 0; */
+    }
+
+    .e__why-img img{
+        width: 50%;
+        height: 50%;
+    }
+
+    .e__why-content{
+        margin-left: 6rem;
+    }
+
+    .e__why-content p{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .e__why-img img{
+        width: 70%;
+        height: 70%;
+    }
+
+    .e__why-content{
+        margin-left: 2rem;
+        padding-right: 1rem;
+    }
+
+    /* .e__why-content p{
+        width: 95%;
+    } */
+}
+
+@media screen and (max-width: 400px){
+    .e__why-img img{
+        width: 70%;
+        height: 80%;    
+    }
+
+    /* .e__why-content{
+        width: 90%;
+        border: 1px solid black;
+    } */
+}
+
