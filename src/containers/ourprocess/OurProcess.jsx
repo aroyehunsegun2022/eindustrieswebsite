@@ -14,7 +14,7 @@ const OurProcess = () => {
     return (
         <div className='e__ourprocess section__padding'>
             <div className='e__ourprocess-heading'>
-                <h1>Our Steps and Processes make us unique</h1>
+                <h1>Our Systematic Approach to Development</h1>
                 <p>See our steps</p>
             </div>
             <div className='e__ourprocess-container'>

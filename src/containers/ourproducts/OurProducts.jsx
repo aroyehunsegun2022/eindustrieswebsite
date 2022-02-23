@@ -4,18 +4,18 @@ import "./ourproducts.css"
 
 const OurProducts = () => {
     return (
-        <div className='gpt3__whatgpt3 section__margin' id='ourproducts'>
-            <div className='gpt3__whatgpt3-feature'>
-                <Feature title="Our Products" text="We build internal products that aims at developing modern technological solutions to address real-life problems" />
+        <div className='e__whate section__margin' id='ourproducts'>
+            <div className='e__whate-feature'>
+                <Feature title="Our Products" text="" />
             </div>
-            <div className='gpt3__whatgpt3-heading'>
-                <h1 className='heading-text'>Here are some of our products</h1>
+            <div className='e__whate-heading'>
+                <h1 className='heading-text'>A few of our products</h1>
                 <p>explore now</p>
             </div>
-            <div className='gpt3__whatgpt3-container'>
+            <div className='e__whate-container'>
                 <Feature title="e-errand" text="This is our first product, and it was designed to create employment opportunities for individuals. It is an open-source product that offers logistics services to aid timely delivery of products for businesses, to ensure swift and accurate response to errands with a real-time monitoring system." />
                 <Feature title="e-auction" text="e-auction is developed to provide live listing and auctioning services for individuals and corporate bodies. You will get to see items available to be auctioned and be able to bid for them. Watch this space" />
-                <Feature title="e-pawn" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumm" />
+                <Feature title="e-pawn" text="A web application that enables users to pawn items and receive instant payment. Individuals can also join a live bidding of items" />
             </div>
         </div>
     )

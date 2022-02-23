@@ -3,6 +3,8 @@ import React from 'react'
 import "./footer.css"
 import elogo from "../../assets/efooter.png"
 import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
@@ -31,9 +33,11 @@ const Footer = () => {
                 </div>
                 <div className='e__footer-links_div'>
                     <h4>Links</h4>
-                    <p><a href='jhsdg'><MailOutlineIcon sx={{ fontSize: 12, marginRight: 1 }} />email</a></p>
-                    <p><a href='jhsdg'><LinkedInIcon sx={{ fontSize: 12, marginRight: 1 }} />linkedin</a></p>
-                    <p><a href='jhsdg'><InstagramIcon sx={{ fontSize: 12, marginRight: 1 }} />Instagram</a></p>
+                    <p><a href='mailto:info@errand.net'><MailOutlineIcon sx={{ fontSize: 12, marginRight: 1 }} />email</a></p>
+                    <p><a href='https://www.linkedin.com/company/eindustriesglobalhq'><LinkedInIcon sx={{ fontSize: 12, marginRight: 1 }} />linkedin</a></p>
+                    <p><a href='https://instagram.com/eindustrieshq'><InstagramIcon sx={{ fontSize: 12, marginRight: 1 }} />Instagram</a></p>
+                    <p><a href='https://twitter.com/eindustriesHq'><TwitterIcon sx={{ fontSize: 12, marginRight: 1 }} />Twitter</a></p>
+                    <p><a href='https://m.facebook.com/eIndustriesHq'><FacebookIcon sx={{ fontSize: 12, marginRight: 1 }} />Facebook</a></p>
                     
                 </div>
                 <div className='e__footer-links_div'>
